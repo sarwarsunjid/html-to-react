@@ -5,10 +5,19 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: mulish;
+  font-family: 'Mulish', sans-serif;
 }
 
+/* .navbar>.container-fluid{
+  background: yellow;
+} */
 
-.navbar {
-  background-color: #2275c8!important;
+.navbar>.container-fluid{
+  background: #fff;
 }
+
+.navbar-light .navbar-brand{
+  font-size: 1.9rem !important;
+  color: #565387 !important;
+}
+
