@@ -10,7 +10,7 @@ import Service from './Service'
 import Contact from './Contact'
 import Navbar from "./Navbar"
 
-import {Switch, Route, Redirect} from 'react-router-dom';
+import { Switch, Route, Redirect } from 'react-router-dom';
 const App = () => {
   return (
     <>
