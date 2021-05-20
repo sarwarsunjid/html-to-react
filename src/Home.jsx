@@ -1,11 +1,12 @@
 import React from 'react'
 import web from '../src/images/home-bg.jpg'
 import { NavLink } from 'react-router-dom'
+import Common from './Common'
 
 const Home = () => {
   return (
     <>
-     <section id="header" className="d-flex align-items-center">
+      {/* <section id="header" className="d-flex align-items-center">
         <div className="container-fluid nav_bg">
             <div className="row">
               <div className="col-10 mx-auto">
@@ -32,7 +33,12 @@ const Home = () => {
               </div>
             </div>
         </div>
-      </section>
+      </section> */}
+      <Common
+        name="Grow Your Business With"
+        imgsrc={web} visit="/contact"
+        btname="Get Started"
+      />
     </>
   )
 }
