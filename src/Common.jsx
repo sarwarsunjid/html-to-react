@@ -1,5 +1,5 @@
 import React from 'react'
-import web from '../src/images/home-bg.jpg'
+// import web from '../src/images/home-bg.jpg'
 import { NavLink } from 'react-router-dom'
 
 const Common = (props) => {
